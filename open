@@ -1,0 +1,1547 @@
+execve("/usr/bin/ruby", ["ruby", "Dir.rb"], [/* 46 vars */]) = 0
+brk(0)                                  = 0xecb000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7c5bb25000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=89365, ...}) = 0
+mmap(NULL, 89365, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7c5bb0f000
+close(3)                                = 0
+open("/lib64/libruby.so.2.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\251\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2391928, ...}) = 0
+mmap(NULL, 4574960, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7c5b4a9000
+mprotect(0x7f7c5b6de000, 2097152, PROT_NONE) = 0
+mmap(0x7f7c5b8de000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x235000) = 0x7f7c5b8de000
+mmap(0x7f7c5b8e6000, 130800, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7c5b8e6000
+close(3)                                = 0
+open("/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240l\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=141616, ...}) = 0
+mmap(NULL, 2208864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7c5b28d000
+mprotect(0x7f7c5b2a3000, 2097152, PROT_NONE) = 0
+mmap(0x7f7c5b4a3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f7c5b4a3000
+mmap(0x7f7c5b4a5000, 13408, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7c5b4a5000
+close(3)                                = 0
+open("/lib64/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=44048, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7c5bb0e000
+mmap(NULL, 2128952, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7c5b085000
+mprotect(0x7f7c5b08c000, 2093056, PROT_NONE) = 0
+mmap(0x7f7c5b28b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f7c5b28b000
+close(3)                                = 0
+open("/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=19512, ...}) = 0
+mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7c5ae81000
+mprotect(0x7f7c5ae84000, 2093056, PROT_NONE) = 0
+mmap(0x7f7c5b083000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f7c5b083000
+close(3)                                = 0
+open("/lib64/libcrypt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=40816, ...}) = 0
+mmap(NULL, 2318912, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7c5ac4a000
+mprotect(0x7f7c5ac52000, 2093056, PROT_NONE) = 0
+mmap(0x7f7c5ae51000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f7c5ae51000
+mmap(0x7f7c5ae53000, 184896, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7c5ae53000
+close(3)                                = 0
+open("/lib64/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260T\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1141552, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7c5bb0d000
+mmap(NULL, 3150168, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7c5a948000
+mprotect(0x7f7c5aa49000, 2093056, PROT_NONE) = 0
+mmap(0x7f7c5ac48000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x100000) = 0x7f7c5ac48000
+close(3)                                = 0
+open("/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\34\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2107600, ...}) = 0
+mmap(NULL, 3932736, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7c5a587000
+mprotect(0x7f7c5a73d000, 2097152, PROT_NONE) = 0
+mmap(0x7f7c5a93d000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b6000) = 0x7f7c5a93d000
+mmap(0x7f7c5a943000, 16960, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7c5a943000
+close(3)                                = 0
+open("/lib64/libfreebl3.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0009\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=502040, ...}) = 0
+mmap(NULL, 2606920, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7c5a30a000
+mprotect(0x7f7c5a381000, 2093056, PROT_NONE) = 0
+mmap(0x7f7c5a580000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x76000) = 0x7f7c5a580000
+mmap(0x7f7c5a583000, 14152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7c5a583000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7c5bb0c000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7c5bb0b000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7c5bb09000
+arch_prctl(ARCH_SET_FS, 0x7f7c5bb09740) = 0
+mprotect(0x7f7c5a93d000, 16384, PROT_READ) = 0
+mprotect(0x7f7c5b083000, 4096, PROT_READ) = 0
+mprotect(0x7f7c5a580000, 8192, PROT_READ) = 0
+mprotect(0x7f7c5ac48000, 4096, PROT_READ) = 0
+mprotect(0x7f7c5ae51000, 4096, PROT_READ) = 0
+mprotect(0x7f7c5b4a3000, 4096, PROT_READ) = 0
+mprotect(0x7f7c5b28b000, 4096, PROT_READ) = 0
+mprotect(0x7f7c5b8de000, 20480, PROT_READ) = 0
+mprotect(0x600000, 4096, PROT_READ)     = 0
+mprotect(0x7f7c5bb26000, 4096, PROT_READ) = 0
+munmap(0x7f7c5bb0f000, 89365)           = 0
+set_tid_address(0x7f7c5bb09a10)         = 4350
+set_robust_list(0x7f7c5bb09a20, 24)     = 0
+rt_sigaction(SIGRTMIN, {0x7f7c5b293780, [], SA_RESTORER|SA_SIGINFO, 0x7f7c5b29c130}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f7c5b293810, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f7c5b29c130}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(0)                                  = 0xecb000
+brk(0xeec000)                           = 0xeec000
+brk(0)                                  = 0xeec000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=106065056, ...}) = 0
+mmap(NULL, 106065056, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7c53de3000
+close(3)                                = 0
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 3), ...}) = 0
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 3), ...}) = 0
+fstat(2, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 3), ...}) = 0
+open("/proc/self/maps", O_RDONLY|O_CLOEXEC) = 3
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7c5bb24000
+read(3, "00400000-00401000 r-xp 00000000 "..., 1024) = 1024
+read(3, "8:08 7386                       "..., 1024) = 1024
+read(3, "08000 08:08 7445                "..., 1024) = 1024
+read(3, "3000 ---p 00016000 08:08 8171   "..., 1024) = 1024
+read(3, "8:08 7364                       "..., 1024) = 443
+close(3)                                = 0
+munmap(0x7f7c5bb24000, 4096)            = 0
+sched_getaffinity(4350, 32, {f, 0, 0, 0}) = 32
+open("/proc/self/maps", O_RDONLY|O_CLOEXEC) = 3
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7c5bb24000
+read(3, "00400000-00401000 r-xp 00000000 "..., 1024) = 1024
+read(3, "8:08 7386                       "..., 1024) = 1024
+read(3, "08000 08:08 7445                "..., 1024) = 1024
+read(3, "3000 ---p 00016000 08:08 8171   "..., 1024) = 1024
+read(3, "8:08 7364                       "..., 1024) = 443
+close(3)                                = 0
+munmap(0x7f7c5bb24000, 4096)            = 0
+sched_getaffinity(4350, 32, {f, 0, 0, 0}) = 32
+rt_sigaction(SIGVTALRM, {0x7f7c5b626370, [], SA_RESTORER|SA_SIGINFO, 0x7f7c5b29c130}, {SIG_DFL, [], 0}, 8) = 0
+mmap(NULL, 1052672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7c5ba08000
+brk(0)                                  = 0xeec000
+brk(0xf10000)                           = 0xf10000
+brk(0)                                  = 0xf10000
+brk(0)                                  = 0xf10000
+brk(0xf0c000)                           = 0xf0c000
+brk(0)                                  = 0xf0c000
+brk(0)                                  = 0xf0c000
+brk(0xf30000)                           = 0xf30000
+brk(0)                                  = 0xf30000
+brk(0)                                  = 0xf30000
+brk(0xf2c000)                           = 0xf2c000
+brk(0)                                  = 0xf2c000
+brk(0)                                  = 0xf2c000
+brk(0xf50000)                           = 0xf50000
+brk(0)                                  = 0xf50000
+brk(0)                                  = 0xf50000
+brk(0xf4c000)                           = 0xf4c000
+brk(0)                                  = 0xf4c000
+clock_gettime(CLOCK_PROCESS_CPUTIME_ID, {0, 2872692}) = 0
+open("/dev/urandom", O_RDONLY|O_NOCTTY|O_NONBLOCK|O_CLOEXEC) = 3
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(3, {st_mode=S_IFCHR|0666, st_rdev=makedev(1, 9), ...}) = 0
+fstat(3, {st_mode=S_IFCHR|0666, st_rdev=makedev(1, 9), ...}) = 0
+read(3, "\237f@\262~\224Jk\357e\311i]\335(a", 16) = 16
+close(3)                                = 0
+brk(0)                                  = 0xf4c000
+brk(0xf6d000)                           = 0xf6d000
+brk(0)                                  = 0xf6d000
+brk(0xf8e000)                           = 0xf8e000
+brk(0)                                  = 0xf8e000
+brk(0xfaf000)                           = 0xfaf000
+brk(0)                                  = 0xfaf000
+brk(0xfd0000)                           = 0xfd0000
+ioctl(0, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 3), ...}) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 3), ...}) = 0
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+fstat(2, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 3), ...}) = 0
+brk(0)                                  = 0xfd0000
+brk(0xff1000)                           = 0xff1000
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], NULL, 8) = 0
+rt_sigaction(SIGINT, {0x7f7c5b5bb540, [], SA_RESTORER|SA_SIGINFO, 0x7f7c5b29c130}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], NULL, 8) = 0
+rt_sigaction(SIGHUP, {0x7f7c5b5bb540, [], SA_RESTORER|SA_SIGINFO, 0x7f7c5b29c130}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], NULL, 8) = 0
+rt_sigaction(SIGQUIT, {0x7f7c5b5bb540, [], SA_RESTORER|SA_SIGINFO, 0x7f7c5b29c130}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], NULL, 8) = 0
+rt_sigaction(SIGTERM, {0x7f7c5b5bb540, [], SA_RESTORER|SA_SIGINFO, 0x7f7c5b29c130}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], NULL, 8) = 0
+rt_sigaction(SIGALRM, {0x7f7c5b5bb540, [], SA_RESTORER|SA_SIGINFO, 0x7f7c5b29c130}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], NULL, 8) = 0
+rt_sigaction(SIGUSR1, {0x7f7c5b5bb540, [], SA_RESTORER|SA_SIGINFO, 0x7f7c5b29c130}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], NULL, 8) = 0
+rt_sigaction(SIGUSR2, {0x7f7c5b5bb540, [], SA_RESTORER|SA_SIGINFO, 0x7f7c5b29c130}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], NULL, 8) = 0
+rt_sigaction(SIGBUS, {0x7f7c5b5bb360, [], SA_RESTORER|SA_STACK|SA_SIGINFO, 0x7f7c5b29c130}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+sigaltstack({ss_sp=0xf34e50, ss_flags=0, ss_size=8192}, {ss_sp=0, ss_flags=SS_DISABLE, ss_size=0}) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], NULL, 8) = 0
+rt_sigaction(SIGSEGV, {0x7f7c5b5bb560, [], SA_RESTORER|SA_STACK|SA_SIGINFO, 0x7f7c5b29c130}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], NULL, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [], SA_RESTORER|SA_SIGINFO, 0x7f7c5b29c130}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], NULL, 8) = 0
+rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_SIGINFO, 0x7f7c5b29c130}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+geteuid()                               = 1000
+getegid()                               = 1000
+brk(0)                                  = 0xff1000
+brk(0x1012000)                          = 0x1012000
+pipe2([3, 4], O_CLOEXEC)                = 0
+fstat(3, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+fstat(4, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+fcntl(3, F_GETFL)                       = 0 (flags O_RDONLY)
+fcntl(3, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+fcntl(4, F_GETFL)                       = 0x1 (flags O_WRONLY)
+fcntl(4, F_SETFL, O_WRONLY|O_NONBLOCK)  = 0
+pipe2([5, 6], O_CLOEXEC)                = 0
+fstat(5, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+fstat(6, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+fcntl(5, F_GETFL)                       = 0 (flags O_RDONLY)
+fcntl(5, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+fcntl(6, F_GETFL)                       = 0x1 (flags O_WRONLY)
+fcntl(6, F_SETFL, O_WRONLY|O_NONBLOCK)  = 0
+mmap(NULL, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f7c5bb21000
+mprotect(0x7f7c5bb21000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f7c5bb23fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f7c5bb249d0, tls=0x7f7c5bb24700, child_tidptr=0x7f7c5bb249d0) = 4351
+open("/proc/self/maps", O_RDONLY|O_CLOEXEC) = 7
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+fstat(7, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7c5bb20000
+read(7, "00400000-00401000 r-xp 00000000 "..., 1024) = 1024
+read(7, "8:08 7386                       "..., 1024) = 1024
+read(7, "08000 08:08 7445                "..., 1024) = 1024
+read(7, "3000 ---p 00016000 08:08 8171   "..., 1024) = 1024
+read(7, "0:00 0 \n7f7c5bb22000-7f7c5bb2600"..., 1024) = 578
+close(7)                                = 0
+munmap(0x7f7c5bb20000, 4096)            = 0
+sched_getaffinity(4350, 32, {f, 0, 0, 0}) = 32
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+brk(0)                                  = 0x1012000
+brk(0x1033000)                          = 0x1033000
+open("/usr/local/share/ruby/site_ruby/enc/encdb.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib64/ruby/site_ruby/enc/encdb.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/vendor_ruby/enc/encdb.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/vendor_ruby/enc/encdb.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems/enc/encdb.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/enc/encdb.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/enc/encdb.so", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0755, st_size=11048, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0755, st_size=11048, ...}) = 0
+close(7)                                = 0
+futex(0x7f7c5b0840d0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/usr/lib64/ruby/enc/encdb.so", O_RDONLY|O_CLOEXEC) = 7
+read(7, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\7\0\0\0\0\0\0"..., 832) = 832
+fstat(7, {st_mode=S_IFREG|0755, st_size=11048, ...}) = 0
+mmap(NULL, 2105440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x7f7c53be0000
+mprotect(0x7f7c53be2000, 2093056, PROT_NONE) = 0
+mmap(0x7f7c53de1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x1000) = 0x7f7c53de1000
+close(7)                                = 0
+mprotect(0x7f7c53de1000, 4096, PROT_READ) = 0
+open("/usr/local/share/ruby/site_ruby/enc/trans/transdb.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib64/ruby/site_ruby/enc/trans/transdb.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/vendor_ruby/enc/trans/transdb.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/vendor_ruby/enc/trans/transdb.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems/enc/trans/transdb.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/enc/trans/transdb.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/enc/trans/transdb.so", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0755, st_size=15112, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0755, st_size=15112, ...}) = 0
+close(7)                                = 0
+open("/usr/lib64/ruby/enc/trans/transdb.so", O_RDONLY|O_CLOEXEC) = 7
+read(7, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\6\0\0\0\0\0\0"..., 832) = 832
+fstat(7, {st_mode=S_IFREG|0755, st_size=15112, ...}) = 0
+mmap(NULL, 2109496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x7f7c539dc000
+mprotect(0x7f7c539de000, 2097152, PROT_NONE) = 0
+mmap(0x7f7c53bde000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x2000) = 0x7f7c53bde000
+close(7)                                = 0
+mprotect(0x7f7c53bde000, 4096, PROT_READ) = 0
+brk(0)                                  = 0x1033000
+brk(0x1054000)                          = 0x1054000
+open("/usr/local/share/ruby/site_ruby/rubygems.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib64/ruby/site_ruby/rubygems.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/vendor_ruby/rubygems.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/vendor_ruby/rubygems.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems/rubygems.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=28170, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=28170, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+open("/usr/share/rubygems/rubygems.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=28170, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=28170, ...}) = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff2a4c1ee0) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=28170, ...}) = 0
+read(7, "# -*- ruby -*-\n#--\n# Copyright 2"..., 8192) = 8192
+read(7, "f self.clear_paths\n    @paths   "..., 8192) = 8192
+read(7, "his RubyGems supports (primarily"..., 8192) = 8192
+read(7, "r_reader :loaded_specs\n\n    ##\n "..., 8192) = 3594
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/usr/share/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems.rb", {st_mode=S_IFREG|0644, st_size=28170, ...}) = 0
+brk(0)                                  = 0x1054000
+brk(0x1076000)                          = 0x1076000
+brk(0)                                  = 0x1076000
+brk(0x1097000)                          = 0x1097000
+open("/usr/local/share/ruby/site_ruby/rbconfig.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib64/ruby/site_ruby/rbconfig.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/vendor_ruby/rbconfig.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/vendor_ruby/rbconfig.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems/rbconfig.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/rbconfig.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/rbconfig.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=11845, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=11845, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+open("/usr/lib64/ruby/rbconfig.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=11845, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=11845, ...}) = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff2a4c1770) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=11845, ...}) = 0
+read(7, "\n# This file was created by mkco"..., 8192) = 8192
+read(7, "strong --param=ssp-buffer-size=4"..., 8192) = 3653
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib64", {st_mode=S_IFDIR|0555, st_size=94208, ...}) = 0
+lstat("/usr/lib64/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/lib64/ruby/rbconfig.rb", {st_mode=S_IFREG|0644, st_size=11845, ...}) = 0
+brk(0)                                  = 0x1097000
+brk(0x10bf000)                          = 0x10bf000
+mmap(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7c5b9e7000
+brk(0)                                  = 0x10bf000
+brk(0x10e1000)                          = 0x10e1000
+munmap(0x7f7c5b9e7000, 135168)          = 0
+open("/usr/local/share/ruby/site_ruby/rubygems/compatibility.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib64/ruby/site_ruby/rubygems/compatibility.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/vendor_ruby/rubygems/compatibility.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/vendor_ruby/rubygems/compatibility.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems/rubygems/compatibility.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1616, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=1616, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+open("/usr/share/rubygems/rubygems/compatibility.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1616, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=1616, ...}) = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff2a4c1770) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1616, ...}) = 0
+read(7, "# :stopdoc:\n\n#--\n# This file con"..., 8192) = 1616
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/usr/share/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems/compatibility.rb", {st_mode=S_IFREG|0644, st_size=1616, ...}) = 0
+open("/usr/local/share/ruby/site_ruby/rubygems/defaults.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib64/ruby/site_ruby/rubygems/defaults.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/vendor_ruby/rubygems/defaults.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/vendor_ruby/rubygems/defaults.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems/rubygems/defaults.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=3131, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=3131, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+open("/usr/share/rubygems/rubygems/defaults.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=3131, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=3131, ...}) = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff2a4c1770) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=3131, ...}) = 0
+read(7, "module Gem\n  DEFAULT_HOST = \"htt"..., 8192) = 3131
+brk(0)                                  = 0x10e1000
+brk(0x1105000)                          = 0x1105000
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/usr/share/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems/defaults.rb", {st_mode=S_IFREG|0644, st_size=3131, ...}) = 0
+open("/usr/local/share/ruby/site_ruby/rubygems/deprecate.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib64/ruby/site_ruby/rubygems/deprecate.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/vendor_ruby/rubygems/deprecate.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/vendor_ruby/rubygems/deprecate.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems/rubygems/deprecate.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1773, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=1773, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+open("/usr/share/rubygems/rubygems/deprecate.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1773, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=1773, ...}) = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff2a4c1770) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1773, ...}) = 0
+read(7, "##\n# Provides a single method +d"..., 8192) = 1773
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/usr/share/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems/deprecate.rb", {st_mode=S_IFREG|0644, st_size=1773, ...}) = 0
+open("/usr/local/share/ruby/site_ruby/rubygems/errors.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib64/ruby/site_ruby/rubygems/errors.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/vendor_ruby/rubygems/errors.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/vendor_ruby/rubygems/errors.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems/rubygems/errors.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=2191, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=2191, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+open("/usr/share/rubygems/rubygems/errors.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=2191, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=2191, ...}) = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff2a4c1770) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=2191, ...}) = 0
+read(7, "#--\n# This file contains all the"..., 8192) = 2191
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/usr/share/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems/errors.rb", {st_mode=S_IFREG|0644, st_size=2191, ...}) = 0
+brk(0)                                  = 0x1105000
+brk(0x1126000)                          = 0x1126000
+open("/usr/local/share/ruby/site_ruby/rubygems/specification.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib64/ruby/site_ruby/rubygems/specification.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/vendor_ruby/rubygems/specification.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/vendor_ruby/rubygems/specification.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems/rubygems/specification.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=69117, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=69117, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+open("/usr/share/rubygems/rubygems/specification.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=69117, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=69117, ...}) = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff2a4c1770) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=69117, ...}) = 0
+read(7, "# -*- coding: utf-8 -*-\n#--\n# Co"..., 8192) = 8192
+read(7, "orm = @new_platform.to_s\n\n    wh"..., 8192) = 8192
+read(7, "by old RubyGems to automatically"..., 8192) = 8192
+read(7, "he latest specs, optionally incl"..., 8192) = 8192
+brk(0)                                  = 0x1126000
+brk(0x1148000)                          = 0x1148000
+read(7, "eturns an array with bindir atta"..., 8192) = 8192
+read(7, "  platform = case @original_plat"..., 8192) = 8192
+read(7, " glob = File.join(self.lib_dirs_"..., 8192) = 8192
+read(7, "{ruby_code version}\"\n    unless "..., 8192) = 8192
+read(7, "ty? and\n       homepage !~ /\\A[a"..., 8192) = 3581
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/usr/share/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems/specification.rb", {st_mode=S_IFREG|0644, st_size=69117, ...}) = 0
+brk(0)                                  = 0x1148000
+brk(0x1169000)                          = 0x1169000
+brk(0)                                  = 0x1169000
+brk(0x118a000)                          = 0x118a000
+brk(0)                                  = 0x118a000
+brk(0x11ab000)                          = 0x11ab000
+brk(0)                                  = 0x11ab000
+brk(0x11cc000)                          = 0x11cc000
+open("/usr/local/share/ruby/site_ruby/rubygems/version.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib64/ruby/site_ruby/rubygems/version.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/vendor_ruby/rubygems/version.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/vendor_ruby/rubygems/version.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems/rubygems/version.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=10752, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=10752, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+open("/usr/share/rubygems/rubygems/version.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=10752, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=10752, ...}) = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff2a4c1000) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=10752, ...}) = 0
+read(7, "##\n# The Version class processes"..., 8192) = 8192
+read(7, " inspect # :nodoc:\n    \"#<#{self"..., 8192) = 2560
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/usr/share/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems/version.rb", {st_mode=S_IFREG|0644, st_size=10752, ...}) = 0
+open("/usr/local/share/ruby/site_ruby/rubygems/requirement.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib64/ruby/site_ruby/rubygems/requirement.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/vendor_ruby/rubygems/requirement.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/vendor_ruby/rubygems/requirement.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems/rubygems/requirement.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=6162, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=6162, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+open("/usr/share/rubygems/rubygems/requirement.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=6162, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=6162, ...}) = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff2a4c1000) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=6162, ...}) = 0
+read(7, "##\n# A Requirement is a set of o"..., 8192) = 6162
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/usr/share/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems/requirement.rb", {st_mode=S_IFREG|0644, st_size=6162, ...}) = 0
+open("/usr/local/share/ruby/site_ruby/rubygems/platform.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib64/ruby/site_ruby/rubygems/platform.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/vendor_ruby/rubygems/platform.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/vendor_ruby/rubygems/platform.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems/rubygems/platform.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=5767, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=5767, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+open("/usr/share/rubygems/rubygems/platform.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=5767, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=5767, ...}) = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff2a4c1000) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=5767, ...}) = 0
+read(7, "require \"rubygems/deprecate\"\n\n##"..., 8192) = 5767
+brk(0)                                  = 0x11cc000
+brk(0x11ee000)                          = 0x11ee000
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/usr/share/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems/platform.rb", {st_mode=S_IFREG|0644, st_size=5767, ...}) = 0
+open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=2652, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=2652, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7c5bb20000
+read(7, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0\0\6\0\0\0\0"..., 4096) = 2652
+lseek(7, -1701, SEEK_CUR)               = 951
+read(7, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0\10\0\0\0\0"..., 4096) = 1701
+close(7)                                = 0
+munmap(0x7f7c5bb20000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2652, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2652, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2652, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2652, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2652, ...}) = 0
+open("/usr/local/share/ruby/site_ruby/rubygems/exceptions.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib64/ruby/site_ruby/rubygems/exceptions.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/vendor_ruby/rubygems/exceptions.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/vendor_ruby/rubygems/exceptions.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems/rubygems/exceptions.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=2766, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=2766, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+open("/usr/share/rubygems/rubygems/exceptions.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=2766, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=2766, ...}) = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff2a4c1770) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=2766, ...}) = 0
+read(7, "# TODO: the documentation in her"..., 8192) = 2766
+brk(0)                                  = 0x11ee000
+brk(0x120f000)                          = 0x120f000
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/usr/share/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems/exceptions.rb", {st_mode=S_IFREG|0644, st_size=2766, ...}) = 0
+open("/usr/local/share/ruby/site_ruby/rubygems/defaults/operating_system.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib64/ruby/site_ruby/rubygems/defaults/operating_system.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/vendor_ruby/rubygems/defaults/operating_system.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/vendor_ruby/rubygems/defaults/operating_system.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems/rubygems/defaults/operating_system.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=2657, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=2657, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+open("/usr/share/rubygems/rubygems/defaults/operating_system.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=2657, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=2657, ...}) = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff2a4c1770) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=2657, ...}) = 0
+read(7, "module Gem\n  class << self\n\n    "..., 8192) = 2657
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/usr/share/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems/defaults", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems/defaults/operating_system.rb", {st_mode=S_IFREG|0644, st_size=2657, ...}) = 0
+brk(0)                                  = 0x120f000
+brk(0x1230000)                          = 0x1230000
+open("/usr/local/share/ruby/site_ruby/rubygems/defaults/ruby.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib64/ruby/site_ruby/rubygems/defaults/ruby.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/vendor_ruby/rubygems/defaults/ruby.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/vendor_ruby/rubygems/defaults/ruby.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems/rubygems/defaults/ruby.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/rubygems/defaults/ruby.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/rubygems/defaults/ruby.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/share/ruby/site_ruby/rubygems/defaults/ruby.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib64/ruby/site_ruby/rubygems/defaults/ruby.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/vendor_ruby/rubygems/defaults/ruby.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/vendor_ruby/rubygems/defaults/ruby.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems/rubygems/defaults/ruby.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/rubygems/defaults/ruby.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/rubygems/defaults/ruby.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+getuid()                                = 1000
+openat(AT_FDCWD, "/home/c0m0/.gem/ruby/specifications/default", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/share/ruby/site_ruby/rubygems/core_ext/kernel_gem.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib64/ruby/site_ruby/rubygems/core_ext/kernel_gem.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/vendor_ruby/rubygems/core_ext/kernel_gem.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/vendor_ruby/rubygems/core_ext/kernel_gem.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems/rubygems/core_ext/kernel_gem.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1978, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=1978, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+open("/usr/share/rubygems/rubygems/core_ext/kernel_gem.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1978, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=1978, ...}) = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff2a4c1770) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1978, ...}) = 0
+read(7, "module Kernel\n\n  # REFACTOR: Thi"..., 8192) = 1978
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/usr/share/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems/core_ext", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems/core_ext/kernel_gem.rb", {st_mode=S_IFREG|0644, st_size=1978, ...}) = 0
+open("/usr/local/share/ruby/site_ruby/rubygems/core_ext/kernel_require.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib64/ruby/site_ruby/rubygems/core_ext/kernel_require.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/vendor_ruby/rubygems/core_ext/kernel_require.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/vendor_ruby/rubygems/core_ext/kernel_require.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems/rubygems/core_ext/kernel_require.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=3739, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=3739, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+open("/usr/share/rubygems/rubygems/core_ext/kernel_require.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=3739, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=3739, ...}) = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff2a4c1770) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=3739, ...}) = 0
+read(7, "#--\n# Copyright 2006 by Chad Fow"..., 8192) = 3739
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/usr/share/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems/core_ext", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems/core_ext/kernel_require.rb", {st_mode=S_IFREG|0644, st_size=3739, ...}) = 0
+open("/usr/local/share/ruby/site_ruby/monitor.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib64/ruby/site_ruby/monitor.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/vendor_ruby/monitor.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/vendor_ruby/monitor.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems/monitor.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/monitor.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=7101, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=7101, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+open("/usr/share/ruby/monitor.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=7101, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=7101, ...}) = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff2a4c1000) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=7101, ...}) = 0
+read(7, "# = monitor.rb\n#\n# Copyright (C)"..., 8192) = 7101
+brk(0)                                  = 0x1230000
+brk(0x1251000)                          = 0x1251000
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/usr/share/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/ruby/monitor.rb", {st_mode=S_IFREG|0644, st_size=7101, ...}) = 0
+open("/usr/local/share/ruby/site_ruby/thread.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib64/ruby/site_ruby/thread.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/vendor_ruby/thread.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/vendor_ruby/thread.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems/thread.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/thread.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=6943, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=6943, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+open("/usr/share/ruby/thread.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=6943, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=6943, ...}) = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff2a4c0890) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=6943, ...}) = 0
+read(7, "#\n#               thread.rb - th"..., 8192) = 6943
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/usr/share/ruby", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/ruby/thread.rb", {st_mode=S_IFREG|0644, st_size=6943, ...}) = 0
+brk(0)                                  = 0x1251000
+brk(0x1278000)                          = 0x1278000
+open("/usr/local/share/ruby/site_ruby/abrt.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib64/ruby/site_ruby/abrt.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/vendor_ruby/abrt.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/vendor_ruby/abrt.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems/abrt.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/abrt.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/abrt.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/share/ruby/site_ruby/abrt.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib64/ruby/site_ruby/abrt.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/vendor_ruby/abrt.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/vendor_ruby/abrt.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems/abrt.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/abrt.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/abrt.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+getuid()                                = 1000
+openat(AT_FDCWD, "/home/c0m0/.gem/ruby/specifications/default", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/share/ruby/site_ruby/rubygems/path_support.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/lib64/ruby/site_ruby/rubygems/path_support.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/ruby/vendor_ruby/rubygems/path_support.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib64/ruby/vendor_ruby/rubygems/path_support.rb", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems/rubygems/path_support.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1623, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=1623, ...}) = 0
+close(7)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+open("/usr/share/rubygems/rubygems/path_support.rb", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1623, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0644, st_size=1623, ...}) = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff2a4c1550) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=1623, ...}) = 0
+read(7, "##\n#\n# Gem::PathSupport facilita"..., 8192) = 1623
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/usr/share/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/share/rubygems/rubygems/path_support.rb", {st_mode=S_IFREG|0644, st_size=1623, ...}) = 0
+getuid()                                = 1000
+stat("/home/c0m0", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/c0m0/.gem/ruby/specifications", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/gems/specifications", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 7
+getdents(7, /* 8 entries */, 32768)     = 296
+getdents(7, /* 0 entries */, 32768)     = 0
+close(7)                                = 0
+stat("/usr/share/gems/specifications/json-1.7.7.gemspec", {st_mode=S_IFREG|0644, st_size=677, ...}) = 0
+open("/usr/share/gems/specifications/json-1.7.7.gemspec", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=677, ...}) = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff2a4c1060) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=677, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "Gem::Specification.new do |s|\n  "..., 677) = 677
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+brk(0)                                  = 0x1278000
+brk(0x129a000)                          = 0x129a000
+stat("/usr/share/gems/specifications/io-console-0.4.2.gemspec", {st_mode=S_IFREG|0644, st_size=682, ...}) = 0
+open("/usr/share/gems/specifications/io-console-0.4.2.gemspec", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=682, ...}) = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff2a4c1140) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=682, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n\nGem::"..., 682) = 682
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2652, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2652, ...}) = 0
+stat("/usr/share/gems/specifications/psych-2.0.0.gemspec", {st_mode=S_IFREG|0644, st_size=4849, ...}) = 0
+open("/usr/share/gems/specifications/psych-2.0.0.gemspec", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=4849, ...}) = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff2a4c1140) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=4849, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n\nGem::"..., 4849) = 4849
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2652, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2652, ...}) = 0
+stat("/usr/share/gems/specifications/rdoc-4.0.0.gemspec", {st_mode=S_IFREG|0644, st_size=2786, ...}) = 0
+open("/usr/share/gems/specifications/rdoc-4.0.0.gemspec", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=2786, ...}) = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff2a4c1140) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=2786, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "Gem::Specification.new do |s|\n  "..., 2786) = 2786
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+brk(0)                                  = 0x129a000
+brk(0x12bc000)                          = 0x12bc000
+stat("/usr/share/gems/specifications/bigdecimal-1.2.0.gemspec", {st_mode=S_IFREG|0644, st_size=847, ...}) = 0
+open("/usr/share/gems/specifications/bigdecimal-1.2.0.gemspec", O_RDONLY|O_CLOEXEC) = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0644, st_size=847, ...}) = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff2a4c1140) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0644, st_size=847, ...}) = 0
+lseek(7, 0, SEEK_CUR)                   = 0
+read(7, "# -*- encoding: utf-8 -*-\n\nGem::"..., 847) = 847
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2652, ...}) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=2652, ...}) = 0
+openat(AT_FDCWD, "/usr/local/share/gems/specifications", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+getuid()                                = 1000
+stat("/usr/share/gems/gems/bigdecimal-1.2.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/gems/gems/bigdecimal-1.2.0/lib/abrt", 0x7fff2a4bf2c0) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/bigdecimal-1.2.0/lib/abrt.rb", 0x7fff2a4bf3a0) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/bigdecimal-1.2.0/lib/abrt.so", 0x7fff2a4bf3a0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/gems/ruby/bigdecimal-1.2.0/lib/abrt", 0x7fff2a4bf480) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/gems/ruby/bigdecimal-1.2.0/lib/abrt.rb", 0x7fff2a4bf480) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/gems/ruby/bigdecimal-1.2.0/lib/abrt.so", 0x7fff2a4bf480) = -1 ENOENT (No such file or directory)
+getuid()                                = 1000
+stat("/usr/share/gems/gems/io-console-0.4.2", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/gems/gems/io-console-0.4.2/lib/abrt", 0x7fff2a4bf640) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/io-console-0.4.2/lib/abrt.rb", 0x7fff2a4bf640) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/io-console-0.4.2/lib/abrt.so", 0x7fff2a4bf640) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/gems/ruby/io-console-0.4.2/lib/abrt", 0x7fff2a4bf640) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/gems/ruby/io-console-0.4.2/lib/abrt.rb", 0x7fff2a4bf640) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/gems/ruby/io-console-0.4.2/lib/abrt.so", 0x7fff2a4bf640) = -1 ENOENT (No such file or directory)
+getuid()                                = 1000
+stat("/usr/share/gems/gems/json-1.7.7", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/gems/gems/json-1.7.7/lib/abrt", 0x7fff2a4bf640) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/json-1.7.7/lib/abrt.rb", 0x7fff2a4bf640) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/json-1.7.7/lib/abrt.so", 0x7fff2a4bf640) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/gems/ruby/json-1.7.7/lib/abrt", 0x7fff2a4bf640) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/gems/ruby/json-1.7.7/lib/abrt.rb", 0x7fff2a4bf640) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/gems/ruby/json-1.7.7/lib/abrt.so", 0x7fff2a4bf640) = -1 ENOENT (No such file or directory)
+getuid()                                = 1000
+stat("/usr/share/gems/gems/psych-2.0.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/gems/gems/psych-2.0.0/lib/abrt", 0x7fff2a4bf640) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/psych-2.0.0/lib/abrt.rb", 0x7fff2a4bf640) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/psych-2.0.0/lib/abrt.so", 0x7fff2a4bf640) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/gems/ruby/psych-2.0.0/lib/abrt", 0x7fff2a4bf640) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/gems/ruby/psych-2.0.0/lib/abrt.rb", 0x7fff2a4bf640) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/gems/ruby/psych-2.0.0/lib/abrt.so", 0x7fff2a4bf640) = -1 ENOENT (No such file or directory)
+getuid()                                = 1000
+stat("/usr/share/gems/gems/rdoc-4.0.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/gems/gems/rdoc-4.0.0/lib/abrt", 0x7fff2a4bf640) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/rdoc-4.0.0/lib/abrt.rb", 0x7fff2a4bf640) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/rdoc-4.0.0/lib/abrt.so", 0x7fff2a4bf640) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/bigdecimal-1.2.0/lib/abrt", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/bigdecimal-1.2.0/lib/abrt.rb", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/bigdecimal-1.2.0/lib/abrt.so", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/gems/ruby/bigdecimal-1.2.0/lib/abrt", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/gems/ruby/bigdecimal-1.2.0/lib/abrt.rb", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/gems/ruby/bigdecimal-1.2.0/lib/abrt.so", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/io-console-0.4.2/lib/abrt", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/io-console-0.4.2/lib/abrt.rb", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/io-console-0.4.2/lib/abrt.so", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/gems/ruby/io-console-0.4.2/lib/abrt", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/gems/ruby/io-console-0.4.2/lib/abrt.rb", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/gems/ruby/io-console-0.4.2/lib/abrt.so", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/json-1.7.7/lib/abrt", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/json-1.7.7/lib/abrt.rb", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/json-1.7.7/lib/abrt.so", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/gems/ruby/json-1.7.7/lib/abrt", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/gems/ruby/json-1.7.7/lib/abrt.rb", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/gems/ruby/json-1.7.7/lib/abrt.so", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/psych-2.0.0/lib/abrt", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/psych-2.0.0/lib/abrt.rb", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/psych-2.0.0/lib/abrt.so", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/gems/ruby/psych-2.0.0/lib/abrt", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/gems/ruby/psych-2.0.0/lib/abrt.rb", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/lib64/gems/ruby/psych-2.0.0/lib/abrt.so", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/rdoc-4.0.0/lib/abrt", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/rdoc-4.0.0/lib/abrt.rb", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+stat("/usr/share/gems/gems/rdoc-4.0.0/lib/abrt.so", 0x7fff2a4bf720) = -1 ENOENT (No such file or directory)
+open("Dir.rb", O_RDONLY|O_CLOEXEC)      = 7
+fcntl(7, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+fstat(7, {st_mode=S_IFREG|0664, st_size=194, ...}) = 0
+fstat(7, {st_mode=S_IFREG|0664, st_size=194, ...}) = 0
+ioctl(7, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff2a4c2720) = -1 ENOTTY (Inappropriate ioctl for device)
+fstat(7, {st_mode=S_IFREG|0664, st_size=194, ...}) = 0
+read(7, "#!/usr/bin/env ruby\n\ndef ListDir"..., 8192) = 194
+read(7, "", 8192)                       = 0
+close(7)                                = 0
+getcwd("/home/c0m0/programmin/ruby", 200) = 27
+lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/c0m0", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+lstat("/home/c0m0/programmin", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+lstat("/home/c0m0/programmin/ruby", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+lstat("/home/c0m0/programmin/ruby/Dir.rb", {st_mode=S_IFREG|0664, st_size=194, ...}) = 0
+open("/proc/self/maps", O_RDONLY|O_CLOEXEC) = 7
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+fstat(7, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7c5bb20000
+read(7, "00400000-00401000 r-xp 00000000 "..., 1024) = 1024
+read(7, " 08:08 541794                   "..., 1024) = 1024
+read(7, "00 rw-p 001ba000 08:08 7386     "..., 1024) = 1024
+read(7, "             /usr/lib64/libdl-2."..., 1024) = 1024
+read(7, "-2.17.so\n7f7c5b4a4000-7f7c5b4a50"..., 1024) = 1024
+read(7, "4/ld-2.17.so\n7f7c5bb27000-7f7c5b"..., 1024) = 402
+close(7)                                = 0
+munmap(0x7f7c5bb20000, 4096)            = 0
+sched_getaffinity(4350, 32, {f, 0, 0, 0}) = 32
+openat(AT_FDCWD, "/etc", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 7
+lseek(7, 0, SEEK_SET)                   = 0
+getdents(7, /* 262 entries */, 32768)   = 8392
+stat("resolv.conf", 0x7fff2a4c2f00)     = -1 ENOENT (No such file or directory)
+stat("resolv.conf", 0x7fff2a4c2f00)     = -1 ENOENT (No such file or directory)
+stat("vpnc", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("vpnc", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("ppp", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("ppp", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("rc.d", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("rc.d", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("rpm", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("rpm", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("tmpfiles.d", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("tmpfiles.d", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("fprintd.conf", 0x7fff2a4c2fe0)    = -1 ENOENT (No such file or directory)
+stat("fprintd.conf", 0x7fff2a4c2fe0)    = -1 ENOENT (No such file or directory)
+stat("GREP_COLORS", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("GREP_COLORS", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("usb_modeswitch.conf", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("usb_modeswitch.conf", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("NetworkManager", 0x7fff2a4c2fe0)  = -1 ENOENT (No such file or directory)
+stat("NetworkManager", 0x7fff2a4c2fe0)  = -1 ENOENT (No such file or directory)
+stat("nsswitch.conf.bak", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("nsswitch.conf.bak", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("gtk-2.0", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("gtk-2.0", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("bluetooth", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("bluetooth", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("issue.net", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("issue.net", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("gss", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("gss", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("csh.cshrc", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("csh.cshrc", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("cron.weekly", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("cron.weekly", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("printcap", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("printcap", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("dracut.conf.d", 0x7fff2a4c2fe0)   = -1 ENOENT (No such file or directory)
+stat("dracut.conf.d", 0x7fff2a4c2fe0)   = -1 ENOENT (No such file or directory)
+stat("skel", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("skel", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("setuptool.d", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("setuptool.d", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("cron.hourly", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("cron.hourly", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("nanorc", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("nanorc", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("sestatus.conf", 0x7fff2a4c2fe0)   = -1 ENOENT (No such file or directory)
+stat("sestatus.conf", 0x7fff2a4c2fe0)   = -1 ENOENT (No such file or directory)
+stat("ethertypes", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("ethertypes", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("groff", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("groff", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("man_db.conf", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("man_db.conf", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("statetab.d", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("statetab.d", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat(".java", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat(".java", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("mate-settings-daemon", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("mate-settings-daemon", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("alsa", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("alsa", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("sudo.conf", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("sudo.conf", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("logrotate.d", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("logrotate.d", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("binfmt.d", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("binfmt.d", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("pki", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("pki", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("ld.so.cache", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("ld.so.cache", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("makedumpfile.conf.sample", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("makedumpfile.conf.sample", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("cups", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("cups", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("cron.deny", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("cron.deny", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("xml", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("xml", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("my.cnf", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("my.cnf", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("oddjobd.conf.d", 0x7fff2a4c2fe0)  = -1 ENOENT (No such file or directory)
+stat("oddjobd.conf.d", 0x7fff2a4c2fe0)  = -1 ENOENT (No such file or directory)
+stat("resolv.conf.old", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("resolv.conf.old", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("X11", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("X11", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("exports", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("exports", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("jvm-commmon", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("jvm-commmon", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("selinux", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("selinux", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("samba", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("samba", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("multipath", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("multipath", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+brk(0)                                  = 0x12bc000
+brk(0x12de000)                          = 0x12de000
+stat("iproute2", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("iproute2", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat(".pwd.lock", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat(".pwd.lock", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("yum", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("yum", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("gnome-settings-daemon", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("gnome-settings-daemon", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("mail.rc", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("mail.rc", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("gdbinit", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("gdbinit", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("logrotate.conf", 0x7fff2a4c2fe0)  = -1 ENOENT (No such file or directory)
+stat("logrotate.conf", 0x7fff2a4c2fe0)  = -1 ENOENT (No such file or directory)
+stat("hosts.deny", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("hosts.deny", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("gdm", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("gdm", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("locale.conf", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("locale.conf", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("networks", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("networks", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("shells", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("shells", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("sasl2", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("sasl2", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("fonts", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("fonts", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("fuse.conf", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("fuse.conf", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("dconf", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("dconf", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("host.conf", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("host.conf", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("passwd", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("passwd", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("shadow", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("shadow", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("rc3.d", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("rc3.d", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("inputrc", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("inputrc", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("abrt", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("abrt", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("aliases", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("aliases", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("firewalld", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("firewalld", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("smartmontools", 0x7fff2a4c2fe0)   = -1 ENOENT (No such file or directory)
+stat("smartmontools", 0x7fff2a4c2fe0)   = -1 ENOENT (No such file or directory)
+stat("machine-id", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("machine-id", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("colord.conf", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("colord.conf", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("mtab", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("mtab", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("bashrc", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("bashrc", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("terminfo", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("terminfo", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("kdump.conf", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("kdump.conf", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("chrony.keys", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("chrony.keys", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("depmod.d", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("depmod.d", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("vimrc", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("vimrc", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("dnsmasq.conf", 0x7fff2a4c2fe0)    = -1 ENOENT (No such file or directory)
+stat("dnsmasq.conf", 0x7fff2a4c2fe0)    = -1 ENOENT (No such file or directory)
+stat("kde", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("kde", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("rc0.d", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("rc0.d", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("maven", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("maven", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("oddjobd.conf", 0x7fff2a4c2fe0)    = -1 ENOENT (No such file or directory)
+stat("oddjobd.conf", 0x7fff2a4c2fe0)    = -1 ENOENT (No such file or directory)
+stat("screenrc", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("screenrc", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("securetty", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("securetty", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("chrony.conf", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("chrony.conf", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("cron.d", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("cron.d", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("magic", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("magic", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("sound", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("sound", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("rwtab", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("rwtab", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("libreport", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("libreport", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("wgetrc", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("wgetrc", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("ksmtuned.conf", 0x7fff2a4c2fe0)   = -1 ENOENT (No such file or directory)
+stat("ksmtuned.conf", 0x7fff2a4c2fe0)   = -1 ENOENT (No such file or directory)
+stat("rc.local", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("rc.local", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("libibverbs.d", 0x7fff2a4c2fe0)    = -1 ENOENT (No such file or directory)
+stat("libibverbs.d", 0x7fff2a4c2fe0)    = -1 ENOENT (No such file or directory)
+stat("hba.conf", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("hba.conf", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("hosts", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("hosts", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("ghostscript", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("ghostscript", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("statetab", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("statetab", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("openvpn", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("openvpn", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("qemu-kvm", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("qemu-kvm", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("setroubleshoot", 0x7fff2a4c2fe0)  = -1 ENOENT (No such file or directory)
+stat("setroubleshoot", 0x7fff2a4c2fe0)  = -1 ENOENT (No such file or directory)
+stat("hosts.allow", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("hosts.allow", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("tuned", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("tuned", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("bash_completion.d", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("bash_completion.d", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("ssh", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("ssh", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("cron.daily", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("cron.daily", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("dnsmasq.d", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("dnsmasq.d", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("sos.conf", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("sos.conf", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("highlight", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("highlight", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("scl", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("scl", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("issue", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("issue", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("libuser.conf", 0x7fff2a4c2fe0)    = -1 ENOENT (No such file or directory)
+stat("libuser.conf", 0x7fff2a4c2fe0)    = -1 ENOENT (No such file or directory)
+stat("xdg", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("xdg", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("sysctl.conf", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("sysctl.conf", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("rpc", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("rpc", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("at.deny", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("at.deny", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("dbus-1", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("dbus-1", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("modprobe.d", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("modprobe.d", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("unbound", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("unbound", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("sudoers.d", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("sudoers.d", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("filesystems", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("filesystems", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("gcrypt", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("gcrypt", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("redhat-release", 0x7fff2a4c2fe0)  = -1 ENOENT (No such file or directory)
+stat("redhat-release", 0x7fff2a4c2fe0)  = -1 ENOENT (No such file or directory)
+stat("os-release", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("os-release", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("audit", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("audit", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("default", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("default", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("rsyslog.conf", 0x7fff2a4c2fe0)    = -1 ENOENT (No such file or directory)
+stat("rsyslog.conf", 0x7fff2a4c2fe0)    = -1 ENOENT (No such file or directory)
+stat("PackageKit", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("PackageKit", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("group", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("group", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("shadow-", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("shadow-", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("sysconfig", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("sysconfig", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("dracut.conf", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("dracut.conf", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("java", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("java", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("popt.d", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("popt.d", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("motd", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("motd", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("virc", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("virc", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("protocols", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("protocols", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("group-", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("group-", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("gnome-vfs-2.0", 0x7fff2a4c2fe0)   = -1 ENOENT (No such file or directory)
+stat("gnome-vfs-2.0", 0x7fff2a4c2fe0)   = -1 ENOENT (No such file or directory)
+stat("grub2.cfg", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("grub2.cfg", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("services", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("services", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("gconf", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("gconf", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("grub2-efi.cfg", 0x7fff2a4c2fe0)   = -1 ENOENT (No such file or directory)
+stat("grub2-efi.cfg", 0x7fff2a4c2fe0)   = -1 ENOENT (No such file or directory)
+stat("vconsole.conf", 0x7fff2a4c2fe0)   = -1 ENOENT (No such file or directory)
+stat("vconsole.conf", 0x7fff2a4c2fe0)   = -1 ENOENT (No such file or directory)
+stat("rc4.d", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("rc4.d", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("passwd-", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("passwd-", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("libaudit.conf", 0x7fff2a4c2fe0)   = -1 ENOENT (No such file or directory)
+stat("libaudit.conf", 0x7fff2a4c2fe0)   = -1 ENOENT (No such file or directory)
+stat("gshadow-", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("gshadow-", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("security", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("security", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("lightdm", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("lightdm", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("DIR_COLORS", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("DIR_COLORS", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("dhcp", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("dhcp", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("DIR_COLORS.256color", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("DIR_COLORS.256color", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("sysctl.d", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("sysctl.d", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("gdbinit.d", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("gdbinit.d", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("hp", 0x7fff2a4c2fe0)              = -1 ENOENT (No such file or directory)
+stat("hp", 0x7fff2a4c2fe0)              = -1 ENOENT (No such file or directory)
+stat("csh.login", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("csh.login", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("login.defs", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("login.defs", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("pm", 0x7fff2a4c2fe0)              = -1 ENOENT (No such file or directory)
+stat("pm", 0x7fff2a4c2fe0)              = -1 ENOENT (No such file or directory)
+stat("udev", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("udev", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("rdma", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("rdma", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("vbox", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("vbox", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("ld.so.conf", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("ld.so.conf", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("centos-release", 0x7fff2a4c2fe0)  = -1 ENOENT (No such file or directory)
+stat("centos-release", 0x7fff2a4c2fe0)  = -1 ENOENT (No such file or directory)
+stat("UPower", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("UPower", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("pkcs11", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("pkcs11", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("wvdial.conf", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("wvdial.conf", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("profile", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("profile", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("anacrontab", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("anacrontab", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("grub.d", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("grub.d", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("rwtab.d", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("rwtab.d", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("ipsec.secrets", 0x7fff2a4c2fe0)   = -1 ENOENT (No such file or directory)
+stat("ipsec.secrets", 0x7fff2a4c2fe0)   = -1 ENOENT (No such file or directory)
+stat("inittab", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("inittab", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("Trolltech.conf", 0x7fff2a4c2fe0)  = -1 ENOENT (No such file or directory)
+stat("Trolltech.conf", 0x7fff2a4c2fe0)  = -1 ENOENT (No such file or directory)
+stat("init.d", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("init.d", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("ipsec.d", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("ipsec.d", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("system-release-cpe", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("system-release-cpe", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("rpmdevtools", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("rpmdevtools", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("ssl", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("ssl", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("drirc", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("drirc", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("krb5.conf", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("krb5.conf", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("mtools.conf", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("mtools.conf", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("ld.so.conf.d", 0x7fff2a4c2fe0)    = -1 ENOENT (No such file or directory)
+stat("ld.so.conf.d", 0x7fff2a4c2fe0)    = -1 ENOENT (No such file or directory)
+stat("modules-load.d", 0x7fff2a4c2fe0)  = -1 ENOENT (No such file or directory)
+stat("modules-load.d", 0x7fff2a4c2fe0)  = -1 ENOENT (No such file or directory)
+stat("polkit-1", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("polkit-1", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("profile.d", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("profile.d", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("ImageMagick", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("ImageMagick", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("beesu.conf", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("beesu.conf", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("iscsi", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("iscsi", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("asound.conf", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("asound.conf", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("environment", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("environment", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("prelink.conf.d", 0x7fff2a4c2fe0)  = -1 ENOENT (No such file or directory)
+stat("prelink.conf.d", 0x7fff2a4c2fe0)  = -1 ENOENT (No such file or directory)
+stat("my.cnf.d", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("my.cnf.d", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("pinforc", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("pinforc", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("xinetd.d", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("xinetd.d", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("pam.d", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("pam.d", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("rc6.d", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("rc6.d", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("mke2fs.conf", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("mke2fs.conf", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("localtime", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("localtime", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("bonobo-activation", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("bonobo-activation", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("favicon.png", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("favicon.png", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("jvm", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("jvm", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("wpa_supplicant", 0x7fff2a4c2fe0)  = -1 ENOENT (No such file or directory)
+stat("wpa_supplicant", 0x7fff2a4c2fe0)  = -1 ENOENT (No such file or directory)
+stat("postfix", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("postfix", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("yum.conf", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("yum.conf", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("purple", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("purple", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("sane.d", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("sane.d", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("sudoers", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("sudoers", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("ntp", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("ntp", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("pulse", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("pulse", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("updatedb.conf", 0x7fff2a4c2fe0)   = -1 ENOENT (No such file or directory)
+stat("updatedb.conf", 0x7fff2a4c2fe0)   = -1 ENOENT (No such file or directory)
+stat("usb_modeswitch.d", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("usb_modeswitch.d", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("alternatives", 0x7fff2a4c2fe0)    = -1 ENOENT (No such file or directory)
+stat("alternatives", 0x7fff2a4c2fe0)    = -1 ENOENT (No such file or directory)
+stat("filezilla", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("filezilla", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("rc1.d", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("rc1.d", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("rsyslog.d", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("rsyslog.d", 0x7fff2a4c2fe0)       = -1 ENOENT (No such file or directory)
+stat("hostname", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("hostname", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("system-release", 0x7fff2a4c2fe0)  = -1 ENOENT (No such file or directory)
+stat("system-release", 0x7fff2a4c2fe0)  = -1 ENOENT (No such file or directory)
+stat("audisp", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("audisp", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("DIR_COLORS.lightbgcolor", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("DIR_COLORS.lightbgcolor", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("e2fsck.conf", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("e2fsck.conf", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("whois.conf", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("whois.conf", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("plymouth", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("plymouth", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("kernel", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("kernel", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("gnupg", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("gnupg", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("adjtime", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("adjtime", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("cron.monthly", 0x7fff2a4c2fe0)    = -1 ENOENT (No such file or directory)
+stat("cron.monthly", 0x7fff2a4c2fe0)    = -1 ENOENT (No such file or directory)
+stat("libnl", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("libnl", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("fcoe", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("fcoe", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("aliases.db", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("aliases.db", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("yum.repos.d", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("yum.repos.d", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("crontab", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("crontab", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("lvm", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("lvm", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("fstab", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("fstab", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("rsyncd.conf", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("rsyncd.conf", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("udisks2", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("udisks2", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("trusted-key.key", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("trusted-key.key", 0x7fff2a4c2fe0) = -1 ENOENT (No such file or directory)
+stat("facter", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("facter", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("gshadow", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("gshadow", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("gtk-3.0", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("gtk-3.0", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("sgml", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("sgml", 0x7fff2a4c2fe0)            = -1 ENOENT (No such file or directory)
+stat("rc5.d", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("rc5.d", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("ipsec.conf", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("ipsec.conf", 0x7fff2a4c2fe0)      = -1 ENOENT (No such file or directory)
+stat("rc2.d", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("rc2.d", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("openldap", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("openldap", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("opt", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("opt", 0x7fff2a4c2fe0)             = -1 ENOENT (No such file or directory)
+stat("avahi", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("avahi", 0x7fff2a4c2fe0)           = -1 ENOENT (No such file or directory)
+stat("at-spi2", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("at-spi2", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("systemd", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("systemd", 0x7fff2a4c2fe0)         = -1 ENOENT (No such file or directory)
+stat("nsswitch.conf", 0x7fff2a4c2fe0)   = -1 ENOENT (No such file or directory)
+stat("nsswitch.conf", 0x7fff2a4c2fe0)   = -1 ENOENT (No such file or directory)
+stat("sudo-ldap.conf", 0x7fff2a4c2fe0)  = -1 ENOENT (No such file or directory)
+stat("sudo-ldap.conf", 0x7fff2a4c2fe0)  = -1 ENOENT (No such file or directory)
+stat("oddjob", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("oddjob", 0x7fff2a4c2fe0)          = -1 ENOENT (No such file or directory)
+stat("chkconfig.d", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("chkconfig.d", 0x7fff2a4c2fe0)     = -1 ENOENT (No such file or directory)
+stat("crypttab", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+stat("crypttab", 0x7fff2a4c2fe0)        = -1 ENOENT (No such file or directory)
+getdents(7, /* 0 entries */, 32768)     = 0
+open("/proc/self/maps", O_RDONLY|O_CLOEXEC) = 8
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+fstat(8, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7c5bb20000
+read(8, "00400000-00401000 r-xp 00000000 "..., 1024) = 1024
+read(8, " 08:08 541794                   "..., 1024) = 1024
+read(8, "00 rw-p 001ba000 08:08 7386     "..., 1024) = 1024
+read(8, "             /usr/lib64/libdl-2."..., 1024) = 1024
+read(8, "-2.17.so\n7f7c5b4a4000-7f7c5b4a50"..., 1024) = 1024
+read(8, "4/ld-2.17.so\n7f7c5bb27000-7f7c5b"..., 1024) = 402
+close(8)                                = 0
+munmap(0x7f7c5bb20000, 4096)            = 0
+sched_getaffinity(4350, 32, {f, 0, 0, 0}) = 32
+rt_sigaction(SIGINT, {SIG_IGN, [], SA_RESTORER|SA_SIGINFO, 0x7f7c5b29c130}, {0x7f7c5b5bb540, [], SA_RESTORER|SA_SIGINFO, 0x7f7c5b29c130}, 8) = 0
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER|SA_SIGINFO, 0x7f7c5b29c130}, {SIG_IGN, [], SA_RESTORER|SA_SIGINFO, 0x7f7c5b29c130}, 8) = 0
+brk(0)                                  = 0x12de000
+brk(0x1300000)                          = 0x1300000
+close(7)                                = 0
+write(4, "!", 1)                        = 1
+futex(0x7f7c5bb249d0, FUTEX_WAIT, 4351, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+munmap(0x7f7c5ba08000, 1052672)         = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
